@@ -42,8 +42,9 @@ socials:
   tiktok: ""
   youtube: ""
 
-google_place_id: "ChIJp-G4sZhjxGoR4G7OGIUF4FA"
+google_place_id: "ChIJyyU9jb1A1moRlPyyH5D2RCk"
 google_reviews_enabled: true
+google_reviews_url: "https://www.google.com/search?q=dragon+tattoo+box+hill+reviews"
 
 booking_url: "tel:+61398902734"
 booking_cta: "Call to Book"
