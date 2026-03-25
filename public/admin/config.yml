@@ -90,56 +90,59 @@ collections:
     label: "Artists"
     description: "Manage artist profiles"
     files:
-      - name: "artists"
-        label: "Artists"
+      - name: "artists-list"
+        label: "Artist Profiles"
         file: "src/content/config/artists.yaml"
         fields:
-      - label: "Artists"
-        name: "items"
-        widget: "list"
-        fields:
-          - { label: "ID", name: "id", widget: "string" }
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Role", name: "role", widget: "string" }
-          - { label: "Specialties", name: "specialties", widget: "list", field: { label: "Specialty", name: "specialty", widget: "string" } }
-          - { label: "Bio", name: "bio", widget: "text" }
-          - { label: "Instagram", name: "instagram", widget: "string", required: false }
-          - { label: "Photo", name: "image", widget: "image", required: false, media_folder: "/public/images/artists", public_folder: "/images/artists" }
-          - { label: "Featured", name: "featured", widget: "boolean", default: true }
+          - label: "Artists"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - label: "Specialties"
+                name: "specialties"
+                widget: "list"
+                field: { label: "Specialty", name: "specialty", widget: "string" }
+              - { label: "Bio", name: "bio", widget: "text" }
+              - { label: "Instagram", name: "instagram", widget: "string", required: false }
+              - { label: "Photo", name: "image", widget: "image", required: false }
+              - { label: "Featured", name: "featured", widget: "boolean", default: true }
 
   - name: "gallery"
     label: "Gallery"
     description: "Manage gallery photos"
     files:
-      - name: "gallery"
+      - name: "gallery-list"
         label: "Gallery Items"
         file: "src/content/config/gallery.yaml"
         fields:
-      - label: "Gallery Items"
-        name: "items"
-        widget: "list"
-        fields:
-          - { label: "ID", name: "id", widget: "string" }
-          - { label: "Photo", name: "image", widget: "image", media_folder: "/public/images/gallery", public_folder: "/images/gallery" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Artist", name: "artist", widget: "select", options: ["clint-baxter", "luke-baxter"] }
-          - { label: "Style", name: "style", widget: "select", options: ["Freehand", "Realism", "Traditional", "Cover-up", "Custom", "Blackwork", "Japanese", "Portraits"] }
+          - label: "Gallery Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Artist", name: "artist", widget: "select", options: ["clint-baxter", "luke-baxter"] }
+              - { label: "Style", name: "style", widget: "select", options: ["Freehand", "Realism", "Traditional", "Cover-up", "Custom", "Blackwork", "Japanese", "Portraits"] }
 
   - name: "reviews"
     label: "Reviews"
     description: "Manage customer reviews"
     files:
-      - name: "reviews"
+      - name: "reviews-list"
         label: "Customer Reviews"
         file: "src/content/config/reviews.yaml"
         fields:
-      - label: "Reviews"
-        name: "items"
-        widget: "list"
-        fields:
-          - { label: "Customer Name", name: "name", widget: "string" }
-          - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
-          - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
-          - { label: "Source", name: "source", widget: "select", options: ["Google", "Facebook", "Walk-in"] }
-          - { label: "Review Text", name: "text", widget: "text" }
-          - { label: "Artist", name: "artist", widget: "select", options: ["clint-baxter", "luke-baxter"], required: false }
+          - label: "Reviews"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Customer Name", name: "name", widget: "string" }
+              - { label: "Rating", name: "rating", widget: "number", min: 1, max: 5 }
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false }
+              - { label: "Source", name: "source", widget: "select", options: ["Google", "Facebook", "Walk-in"] }
+              - { label: "Review Text", name: "text", widget: "text" }
+              - { label: "Artist", name: "artist", widget: "select", options: ["clint-baxter", "luke-baxter"], required: false }
