@@ -1,0 +1,17 @@
+- id: "clint-baxter"
+  name: "Clint Baxter"
+  role: "Owner & Lead Artist"
+  specialties: ["Custom", "Freehand", "Realism", "Cover-ups"]
+  bio: "Clint re-established Dragon City Tattoo in 2015, carrying on the family tradition started by his father Steve in 1988. Known for his freehand work and ability to create original designs on the spot, Clint brings decades of experience and a genuine passion for the craft. His clients keep coming back because he listens, delivers, and makes the whole experience enjoyable."
+  instagram: "https://www.instagram.com/clintbaxtertatt2/"
+  image: "/images/artists/clint-baxter.jpg"
+  featured: true
+
+- id: "luke-baxter"
+  name: "Luke Baxter"
+  role: "Artist"
+  specialties: ["Traditional", "Custom", "Portraits"]
+  bio: "Luke is part of the Baxter family legacy at Dragon City Tattoo. Friendly, skilled, and professional, Luke is known for putting clients at ease — especially first-timers. His attention to detail and willingness to collaborate on designs has earned him a loyal following and consistently great reviews."
+  instagram: ""
+  image: "/images/artists/luke-baxter.jpg"
+  featured: true

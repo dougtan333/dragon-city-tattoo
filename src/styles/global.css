@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #111010;
+    color: #e8e6e1;
+    overflow-x: hidden;
+  }
+  ::selection { background-color: #c8553d; color: #fff; }
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #1a1918; }
+  ::-webkit-scrollbar-thumb { background: #5a5149; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #6e6459; }
+}
+
+@layer components {
+  .grain-overlay {
+    position: fixed; inset: 0; pointer-events: none; z-index: 9999; opacity: 0.025;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+    background-repeat: repeat; background-size: 256px;
+  }
+  .divider-line {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #5a514940, transparent);
+  }
+  .reveal {
+    opacity: 0; transform: translateY(20px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+
+  .gallery-item { position: relative; overflow: hidden; cursor: pointer; }
+  .gallery-item .overlay {
+    position: absolute; inset: 0; display: flex; flex-direction: column;
+    justify-content: flex-end; padding: 1.25rem; opacity: 0; transition: opacity 0.4s ease;
+    background: linear-gradient(to top, rgba(17,16,16,0.9) 0%, transparent 60%);
+  }
+  .gallery-item:hover .overlay { opacity: 1; }
+
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.875rem 1.75rem; background-color: #c8553d; color: white;
+    font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 0.875rem;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    transition: all 0.3s ease;
+  }
+  .btn-primary:hover {
+    background-color: #a3412d; box-shadow: 0 4px 20px rgba(200,85,61,0.3);
+    transform: translateY(-1px);
+  }
+  .btn-outline {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.875rem 1.75rem; border: 1px solid #6e6459; color: #d1cdc4;
+    font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 0.875rem;
+    text-transform: uppercase; letter-spacing: 0.08em; background: transparent;
+    transition: all 0.3s ease;
+  }
+  .btn-outline:hover { border-color: #c8553d; color: #c8553d; }
+
+  .artist-card { position: relative; overflow: hidden; }
+  .artist-card:hover .artist-image { transform: scale(1.03); }
+  .artist-image { transition: transform 0.7s ease-out; }
+
+  .review-card {
+    background: #1a1918; border: 1px solid rgba(75,68,64,0.4);
+    padding: 1.5rem; position: relative;
+  }
+  .review-card::before {
+    content: '\201C'; position: absolute; top: -8px; left: 16px;
+    font-family: 'Playfair Display', serif; font-size: 5rem;
+    color: rgba(200,85,61,0.08); line-height: 1;
+  }
+
+  .filter-chip {
+    padding: 0.5rem 1rem; font-size: 0.7rem; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    border: 1px solid #5a5149; color: #9a9285; background: transparent;
+    transition: all 0.2s ease; cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .filter-chip:hover, .filter-chip.active {
+    border-color: #c8553d; color: #c8553d; background: rgba(200,85,61,0.05);
+  }
+}
