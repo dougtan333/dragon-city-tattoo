@@ -4,9 +4,14 @@ import fs from 'node:fs';
 import { parse } from 'yaml';
 
 const shop = parse(fs.readFileSync('src/content/config/shop.yaml', 'utf-8')) as Record<string, any>;
-const artists = parse(fs.readFileSync('src/content/config/artists.yaml', 'utf-8')) as any[];
-const galleryItems = parse(fs.readFileSync('src/content/config/gallery.yaml', 'utf-8')) as any[];
-const reviews = parse(fs.readFileSync('src/content/config/reviews.yaml', 'utf-8')) as any[];
+const artistsRaw = parse(fs.readFileSync('src/content/config/artists.yaml', 'utf-8')) as any;
+const galleryRaw = parse(fs.readFileSync('src/content/config/gallery.yaml', 'utf-8')) as any;
+const reviewsRaw = parse(fs.readFileSync('src/content/config/reviews.yaml', 'utf-8')) as any;
+
+// Support both bare arrays and Decap CMS format (object with items key)
+const artists = Array.isArray(artistsRaw) ? artistsRaw : (artistsRaw?.items || []);
+const galleryItems = Array.isArray(galleryRaw) ? galleryRaw : (galleryRaw?.items || []);
+const reviews = Array.isArray(reviewsRaw) ? reviewsRaw : (reviewsRaw?.items || []);
 
 const styles = [...new Set(galleryItems.map((item: any) => item.style))].sort();
 ---
