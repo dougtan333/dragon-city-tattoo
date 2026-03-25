@@ -10,8 +10,8 @@ address:
   state: "VIC"
   postcode: "3128"
   country: "Australia"
-  google_maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8!2d145.1203!3d-37.8287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad63898e1b8e1a7%3A0x5045675218ce6e0!2sDragon%20City%20Tattoo!5e0!3m2!1sen!2sau!4v1700000000000!5m2!1sen!2sau"
-  google_maps_link: "https://maps.google.com/?q=Dragon+City+Tattoo+893+Canterbury+Road+Box+Hill+South+VIC+3128"
+  google_maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.4!2d145.1199141!3d-37.8286801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad640bd8d3d25cb%3A0x2944f6901fb2fc94!2sDragon%20City%20Tattoo!5e0!3m2!1sen!2sau!4v1711000000000!5m2!1sen!2sau"
+  google_maps_link: "https://www.google.com/maps/place/Dragon+City+Tattoo/@-37.8286801,145.122489,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad640bd8d3d25cb:0x2944f6901fb2fc94!8m2!3d-37.8286801!4d145.122489"
 
 hours:
   - day: "Monday"
