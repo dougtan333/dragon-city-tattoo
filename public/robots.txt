@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-tattoo-shop.com/sitemap.xml
+Sitemap: https://dragon-city-tattoo.vercel.app/sitemap-index.xml

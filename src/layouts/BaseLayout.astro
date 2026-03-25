@@ -32,6 +32,7 @@ const {
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="canonical" href={Astro.url.href} />
+  <noscript><style>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
 </head>
 <body class="min-h-screen flex flex-col">
 
@@ -57,7 +58,7 @@ const {
           <a href="/#faq" class="text-sm font-medium text-ink-300 hover:text-ink-50 transition-colors tracking-wide uppercase" style="letter-spacing:0.06em">FAQ</a>
           <a href="/#updates" class="text-sm font-medium text-ink-300 hover:text-ink-50 transition-colors tracking-wide uppercase" style="letter-spacing:0.06em">Updates</a>
           <a href="/#contact" class="text-sm font-medium text-ink-300 hover:text-ink-50 transition-colors tracking-wide uppercase" style="letter-spacing:0.06em">Contact</a>
-          <a href={shop.booking_url} target="_blank" rel="noopener" class="btn-primary text-xs">
+          <a href={shop.booking_url} class="btn-primary text-xs">
             {shop.booking_cta}
           </a>
         </div>
@@ -81,7 +82,7 @@ const {
         <a href="/#faq" class="text-2xl font-display text-ink-200 hover:text-accent transition-colors mobile-nav-link">FAQ</a>
         <a href="/#updates" class="text-2xl font-display text-ink-200 hover:text-accent transition-colors mobile-nav-link">Updates</a>
         <a href="/#contact" class="text-2xl font-display text-ink-200 hover:text-accent transition-colors mobile-nav-link">Contact</a>
-        <a href={shop.booking_url} target="_blank" rel="noopener" class="btn-primary mt-4">{shop.booking_cta}</a>
+        <a href={shop.booking_url} class="btn-primary mt-4">{shop.booking_cta}</a>
       </div>
     </div>
   </nav>
@@ -124,7 +125,7 @@ const {
             <li><a href="/#artists" class="text-ink-300 hover:text-ink-50 transition-colors text-sm">Our Artists</a></li>
             <li><a href="/#about" class="text-ink-300 hover:text-ink-50 transition-colors text-sm">About Us</a></li>
             <li><a href="/#faq" class="text-ink-300 hover:text-ink-50 transition-colors text-sm">FAQ</a></li>
-            <li><a href={shop.booking_url} target="_blank" rel="noopener" class="text-accent hover:text-accent-light transition-colors text-sm">Book a Session</a></li>
+            <li><a href={shop.booking_url} class="text-accent hover:text-accent-light transition-colors text-sm">Book a Session</a></li>
           </ul>
         </div>
 
