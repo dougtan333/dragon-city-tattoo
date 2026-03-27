@@ -13,7 +13,7 @@ const artists = Array.isArray(artistsRaw) ? artistsRaw : (artistsRaw?.items || [
 const galleryItems = Array.isArray(galleryRaw) ? galleryRaw : (galleryRaw?.items || []);
 const reviews = Array.isArray(reviewsRaw) ? reviewsRaw : (reviewsRaw?.items || []);
 
-const styles = [...new Set(galleryItems.map((item: any) => item.style))].sort();
+const styles = [...new Set(galleryItems.flatMap((item: any) => Array.isArray(item.style) ? item.style : [item.style]))].sort();
 ---
 
 <BaseLayout>
@@ -71,7 +71,7 @@ const styles = [...new Set(galleryItems.map((item: any) => item.style))].sort();
       )}
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4" id="gallery-grid">
         {galleryItems.map((item: any, i: number) => (
-          <div class="gallery-item reveal aspect-[3/4] bg-surface-raised" data-style={item.style} data-index={i} style={`animation-delay: ${i * 0.05}s`}>
+          <div class="gallery-item reveal aspect-[3/4] bg-surface-raised" data-style={Array.isArray(item.style) ? item.style.join(',') : item.style} data-index={i} style={`animation-delay: ${i * 0.05}s`}>
             <div class="w-full h-full bg-gradient-to-br from-ink-800 to-ink-900 flex items-center justify-center">
               <div class="text-center px-4">
                 <div class="w-12 h-12 mx-auto mb-3 rounded-full border border-ink-700 flex items-center justify-center">
@@ -81,7 +81,7 @@ const styles = [...new Set(galleryItems.map((item: any) => item.style))].sort();
               </div>
             </div>
             <div class="overlay">
-              <span class="text-xs uppercase tracking-wider text-accent mb-1">{item.style}</span>
+              <span class="text-xs uppercase tracking-wider text-accent mb-1">{Array.isArray(item.style) ? item.style.join(' · ') : item.style}</span>
               <span class="text-sm font-medium text-ink-100">{item.title}</span>
               <span class="text-xs text-ink-400 mt-1">by {artists.find((a: any) => a.id === item.artist)?.name}</span>
             </div>
@@ -364,8 +364,9 @@ const styles = [...new Set(galleryItems.map((item: any) => item.style))].sort();
       filterBtns.forEach(function(b) { b.classList.remove('active'); });
       btn.classList.add('active');
       galleryItems.forEach(function(item) {
-        var style = item.getAttribute('data-style');
-        item.style.display = (filter === 'all' || style === filter) ? '' : 'none';
+        var style = item.getAttribute('data-style') || '';
+        var styles = style.split(',');
+        item.style.display = (filter === 'all' || styles.indexOf(filter) !== -1) ? '' : 'none';
       });
     });
   });

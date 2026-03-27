@@ -128,7 +128,22 @@ collections:
               - { label: "Photo", name: "image", widget: "image" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Artist", name: "artist", widget: "select", options: ["clint-baxter", "luke-baxter"] }
-              - { label: "Style", name: "style", widget: "select", options: ["Freehand", "Realism", "Traditional", "Cover-up", "Custom", "Blackwork", "Japanese", "Portraits"] }
+              - label: "Style Tags"
+                name: "style"
+                widget: "select"
+                multiple: true
+                options:
+                  - "Custom"
+                  - "Traditional"
+                  - "Realism"
+                  - "Japanese"
+                  - "Blackwork"
+                  - "Fine Line"
+                  - "Cover-Ups"
+                  - "Freehand"
+                  - "Lettering"
+                  - "Colour"
+                  - "Black & Grey"
 
   - name: "reviews"
     label: "Reviews"
