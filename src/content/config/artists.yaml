@@ -1,17 +1,41 @@
 items:
-  - id: "clint-baxter"
-    name: "Clint Baxter"
-    role: "Owner & Lead Artist"
-    specialties: ["Custom", "Freehand", "Realism", "Cover-ups"]
-    bio: "Clint re-established Dragon City Tattoo in 2015, carrying on the family tradition started by his father Steve in 1988. Known for his freehand work and ability to create original designs on the spot, Clint brings decades of experience and a genuine passion for the craft. His clients keep coming back because he listens, delivers, and makes the whole experience enjoyable."
-    instagram: "https://www.instagram.com/clintbaxtertatt2/"
-    image: "/images/artists/clint-baxter.jpg"
+  - id: clint-baxter
+    name: Clint Baxter
+    role: Owner & Lead Artist
+    specialties:
+      - Custom
+      - Freehand
+      - Traditional
+      - Realism
+      - Cover-Ups
+      - Portraits
+    bio: >-
+      Clint Baxter is the owner and lead artist at Dragon City Tattoo in Box
+      Hill South, Melbourne. Following in his father Steve Baxter's footsteps -
+      who founded the original studio in 1985 - Clint re-established Dragon City
+      Tattoo in 2015 and has built it into one of Melbourne's eastern suburbs'
+      most trusted tattoo parlours.
+
+
+      With decades of hands-on experience, Clint specialises in custom designs, freehand work, realism, portraits, traditional tattoos, and cover-ups. He's known for his ability to work collaboratively with clients, transforming ideas and references into one-of-a-kind pieces that stand the test of time.
+
+
+      Whether it's your first tattoo or a full sleeve, Clint's approach is the same - listen to the client, design something meaningful, and execute it with precision and care.
+    instagram: https://www.instagram.com/clintbaxtertatt2/
+    image: /images/artists/clint-baxter.jpg
     featured: true
-  - id: "luke-baxter"
-    name: "Luke Baxter"
-    role: "Artist"
-    specialties: ["Traditional", "Custom", "Portraits"]
-    bio: "Luke is part of the Baxter family legacy at Dragon City Tattoo. Friendly, skilled, and professional, Luke is known for putting clients at ease — especially first-timers. His attention to detail and willingness to collaborate on designs has earned him a loyal following and consistently great reviews."
+  - id: luke-baxter
+    name: Luke Baxter
+    role: Artist
+    specialties:
+      - Traditional
+      - Custom
+      - Portraits
+    bio: Luke is part of the Baxter family legacy at Dragon City Tattoo. Friendly,
+      skilled, and professional, Luke is known for putting clients at ease -
+      especially first-timers. His attention to detail and willingness to
+      collaborate on designs has earned him a loyal following and consistently
+      great reviews.
     instagram: ""
-    image: "/images/artists/luke-baxter.jpg"
+    image: /images/artists/luke-baxter.jpg
     featured: true
