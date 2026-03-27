@@ -38,8 +38,8 @@ collections:
             widget: "list"
             fields:
               - { label: "Day", name: "day", widget: "string" }
-              - { label: "Open", name: "open", widget: "string" }
-              - { label: "Close", name: "close", widget: "string" }
+              - { label: "Open", name: "open", widget: "string", hint: "e.g. 11:00 or Closed" }
+              - { label: "Close", name: "close", widget: "string", required: false, hint: "e.g. 20:00 or Closed" }
           - label: "Socials"
             name: "socials"
             widget: "object"
