@@ -1,100 +1,121 @@
-name: "Dragon City Tattoo"
-tagline: "Family-owned tattoo parlour since 1988"
-description: "Licensed family tattoo parlour in Box Hill South, Melbourne. Established in 1988 by Steve Baxter, re-established in 2015 by Clint Baxter. Over 65 years combined experience. Walk-ins welcome."
-
-phone: "+61 3 9890 2734"
-email: "Baxtatt2@yahoo.com"
+name: Dragon City Tattoo
+tagline: Family-owned tattoo parlour since 1988
+description: Licensed family tattoo parlour in Box Hill South, Melbourne.
+  Established in 1988 by Steve Baxter, re-established in 2015 by Clint Baxter.
+  Over 65 years combined experience. Walk-ins welcome.
+phone: +61 3 9890 2734
+email: Baxtatt2@yahoo.com
 address:
-  street: "893 Canterbury Road"
-  suburb: "Box Hill South"
-  state: "VIC"
+  street: 893 Canterbury Road
+  suburb: Box Hill South
+  state: VIC
   postcode: "3128"
-  country: "Australia"
-  google_maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.4!2d145.1199141!3d-37.8286801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad640bd8d3d25cb%3A0x2944f6901fb2fc94!2sDragon%20City%20Tattoo!5e0!3m2!1sen!2sau!4v1711000000000!5m2!1sen!2sau"
-  google_maps_link: "https://www.google.com/maps/place/Dragon+City+Tattoo/@-37.8286801,145.122489,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad640bd8d3d25cb:0x2944f6901fb2fc94!8m2!3d-37.8286801!4d145.122489"
-
+  country: Australia
+  google_maps_embed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.4!2d145.1199141!3d-37.8286801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad640bd8d3d25cb%3A0x2944f6901fb2fc94!2sDragon%20City%20Tattoo!5e0!3m2!1sen!2sau!4v1711000000000!5m2!1sen!2sau
+  google_maps_link: https://www.google.com/maps/place/Dragon+City+Tattoo/@-37.8286801,145.122489,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad640bd8d3d25cb:0x2944f6901fb2fc94!8m2!3d-37.8286801!4d145.122489
 hours:
-  - day: "Monday"
-    open: "11:00"
-    close: "20:00"
-  - day: "Tuesday"
-    open: "11:00"
-    close: "20:00"
-  - day: "Wednesday"
-    open: "11:00"
-    close: "20:00"
-  - day: "Thursday"
-    open: "11:00"
-    close: "20:00"
-  - day: "Friday"
-    open: "11:00"
-    close: "20:00"
-  - day: "Saturday"
-    open: "11:00"
-    close: "16:00"
-  - day: "Sunday"
-    open: "Closed"
-    close: ""
-
+  - day: Monday
+    open: 11:00
+    close: 20:00
+  - day: Tuesday
+    open: 11:00
+    close: 20:00
+  - day: Wednesday
+    open: 11:00
+    close: 20:00
+  - day: Thursday
+    open: 11:00
+    close: 20:00
+  - day: Friday
+    open: 11:00
+    close: 20:00
+  - day: Saturday
+    open: 11:00
+    close: 16:00
+  - day: Sunday
+    open: Closed
+    close: Closed
 socials:
-  instagram: "https://www.instagram.com/clintbaxtertatt2/"
-  facebook: "https://www.facebook.com/dragoncitytattoo/"
+  instagram: https://www.instagram.com/clintbaxtertatt2/
+  facebook: https://www.facebook.com/dragoncitytattoo/
   tiktok: ""
   youtube: ""
-
-google_place_id: "ChIJyyU9jb1A1moRlPyyH5D2RCk"
+google_place_id: ChIJyyU9jb1A1moRlPyyH5D2RCk
 google_reviews_enabled: true
-google_reviews_url: "https://www.google.com/search?q=dragon+tattoo+box+hill+reviews"
-
-booking_url: "tel:+61398902734"
-booking_cta: "Call to Book"
+google_reviews_url: https://www.google.com/search?q=dragon+tattoo+box+hill+reviews
+booking_url: tel:+61398902734
+booking_cta: Call to Book
 walkins_welcome: true
-
-meta_title: "Dragon City Tattoo | Box Hill South, Melbourne"
-meta_description: "Licensed family tattoo parlour in Box Hill South, Melbourne. Established 1988. Custom tattoos, cover-ups, freehand work. Walk-ins welcome. Call (03) 9890 2734."
-meta_image: "/images/og-share.jpg"
-locale: "en_AU"
-
+meta_title: Dragon City Tattoo | Box Hill South, Melbourne
+meta_description: Licensed family tattoo parlour in Box Hill South, Melbourne.
+  Established 1983. Custom tattoos, cover-ups, freehand work. Walk-ins welcome.
+  Call (03) 9890 2734.
+meta_image: /images/og-share.jpg
+locale: en_AU
 features:
   chatbot_enabled: false
   gallery_filter: true
   artist_profiles: true
   reviews_section: true
   facebook_feed: true
-
-facebook_page_url: "https://www.facebook.com/dragoncitytattoo/"
-
+facebook_page_url: https://www.facebook.com/dragoncitytattoo/
 about:
-  headline: "A family tradition in ink"
-  intro: "Dragon City Tattoo is a licensed family tattoo parlour, established in 1988 by Steve Baxter and re-established in 2015 by Clint Baxter."
-  story: |
-    Dragon City Tattoo has been part of the Box Hill community for over 35 years. What started as Steve Baxter's passion in 1988 has grown into a family tradition — with father and sons bringing over 65 years of combined tattooing experience to every piece.
+  headline: A family tradition in ink
+  intro: Dragon City Tattoo is a licensed family tattoo parlour, established in
+    1983 by Steve Baxter and re-established in 2015 by Clint Baxter.
+  story: >
+    Dragon City Tattoo has been part of the Box Hill community for over 35
+    years. What started as Steve Baxter's passion in 1983 has grown into a
+    family tradition — with father and sons bringing over 65 years of combined
+    tattooing experience to every piece.
+
 
     Re-established in 2015 by Clint Baxter, the studio carries forward the same commitment to quality, personalised service, and a welcoming atmosphere that made it a local institution. Whether you're after a custom design, a freehand piece, a cover-up, or your very first tattoo, we treat every client like family.
 
+
     We pride ourselves on a clean, professional studio and a relaxed vibe. Walk-ins are always welcome, or give us a call to book your session.
   values:
-    - title: "Family-owned since 1988"
-      description: "Three generations of tattooing expertise. We've been part of the Box Hill community for over 35 years."
-    - title: "Walk-ins welcome"
-      description: "No appointment needed — drop in Monday to Saturday. Call ahead if you'd like to guarantee a time."
-    - title: "Clean & professional"
-      description: "Licensed parlour with strict hygiene standards. Your safety and comfort are our top priority."
-
+    - title: Family-owned since 1988
+      description: Three generations of tattooing expertise. We've been part of the
+        Box Hill community for over 35 years.
+    - title: Walk-ins welcome
+      description: No appointment needed — drop in Monday to Saturday. Call ahead if
+        you'd like to guarantee a time.
+    - title: Clean & professional
+      description: Licensed parlour with strict hygiene standards. Your safety and
+        comfort are our top priority.
 faq:
-  - question: "How much does a tattoo cost?"
-    answer: "Pricing depends on size, detail, placement, and time. It's best to drop into the shop or give us a call at (03) 9890 2734 to discuss your idea and get an accurate quote. We're happy to chat through options for any budget."
-  - question: "Do you accept walk-ins?"
-    answer: "Absolutely — walk-ins are welcome Monday to Saturday. Weekdays tend to be quieter so you'll have the best chance of being seen straight away. For guaranteed sessions, call ahead to book."
-  - question: "How do I book an appointment?"
-    answer: "Give us a call on (03) 9890 2734 or drop into the shop at 893 Canterbury Road, Box Hill South. You can also reach us via Instagram DM or email at Baxtatt2@yahoo.com."
-  - question: "What styles do you specialise in?"
-    answer: "Our artists cover a wide range including custom designs, freehand work, traditional, realism, portraits, cover-ups, Japanese, blackwork, and more. Have a look at our gallery or check out Clint's Instagram for recent work."
-  - question: "Is it your first tattoo?"
-    answer: "No worries — we get a lot of first-timers and we'll make you feel comfortable from start to finish. We'll walk you through the whole process, help you choose the right placement and size, and make sure you're happy with the design before we start."
-  - question: "How should I prepare for my appointment?"
-    answer: "Eat a good meal beforehand, stay hydrated, wear comfortable clothing that gives easy access to the tattoo area, and get a decent night's sleep. Avoid alcohol for 24 hours before your session."
-  - question: "What's the aftercare process?"
-    answer: "We'll give you full aftercare instructions after your session. Generally — keep it clean, moisturised, and out of direct sunlight for the first few weeks. Avoid swimming and picking at any scabbing. Follow the aftercare and your tattoo will heal beautifully."
-  - question: "Can I bring my own design?"
-    answer: "Of course. Bring reference images, sketches, or ideas and we'll work with you to make it tattoo-ready. We can also create something from scratch if you give us a brief of what you're after."
+  - question: How much does a tattoo cost?
+    answer: Pricing depends on size, detail, placement, and time. It's best to drop
+      into the shop or give us a call at (03) 9890 2734 to discuss your idea and
+      get an accurate quote. We're happy to chat through options for any budget.
+  - question: Do you accept walk-ins?
+    answer: Absolutely — walk-ins are welcome Monday to Saturday. Weekdays tend to
+      be quieter so you'll have the best chance of being seen straight away. For
+      guaranteed sessions, call ahead to book.
+  - question: How do I book an appointment?
+    answer: Give us a call on (03) 9890 2734 or drop into the shop at 893 Canterbury
+      Road, Box Hill South. You can also reach us via Instagram DM or email at
+      Baxtatt2@yahoo.com.
+  - question: What styles do you specialise in?
+    answer: Our artists cover a wide range including custom designs, freehand work,
+      traditional, realism, portraits, cover-ups, Japanese, blackwork, and more.
+      Have a look at our gallery or check out Clint's Instagram for recent work.
+  - question: Is it your first tattoo?
+    answer: No worries — we get a lot of first-timers and we'll make you feel
+      comfortable from start to finish. We'll walk you through the whole
+      process, help you choose the right placement and size, and make sure
+      you're happy with the design before we start.
+  - question: How should I prepare for my appointment?
+    answer: Eat a good meal beforehand, stay hydrated, wear comfortable clothing
+      that gives easy access to the tattoo area, and get a decent night's sleep.
+      Avoid alcohol for 24 hours before your session.
+  - question: What's the aftercare process?
+    answer: We'll give you full aftercare instructions after your session. Generally
+      — keep it clean, moisturised, and out of direct sunlight for the first few
+      weeks. Avoid swimming and picking at any scabbing. Follow the aftercare
+      and your tattoo will heal beautifully.
+  - question: Can I bring my own design?
+    answer: Of course. Bring reference images, sketches, or ideas and we'll work
+      with you to make it tattoo-ready. We can also create something from
+      scratch if you give us a brief of what you're after.
