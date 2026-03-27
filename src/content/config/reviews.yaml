@@ -1,37 +1,47 @@
 items:
-  - name: "Talitha W."
+  - name: Talitha W.
     rating: 5
-    date: "2025-08-01"
-    source: "Facebook"
-    text: "Wouldn't trust anyone else to do my tattoos! Absolutely obsessed and can't thank you enough."
-    artist: "clint-baxter"
-  - name: "Greg C."
+    date: 2025-08-01
+    source: Facebook
+    text: Wouldn't trust anyone else to do my tattoos! Absolutely obsessed and can't
+      thank you enough.
+    artist: clint-baxter
+  - name: Greg C.
     rating: 5
-    date: "2024-06-06"
-    source: "Google"
-    text: "I feel I got very lucky with Clint when I walked in off the street to get my first tattoo 9 years ago. He's done all my work and I keep coming back."
-    artist: "clint-baxter"
-  - name: "Luke Review"
+    date: 2024-06-06
+    source: Google
+    text: I feel I got very lucky with Clint when I walked in off the street to get
+      my first tattoo 9 years ago. He's done all my work and I keep coming back.
+    artist: clint-baxter
+  - name: Luke Review
     rating: 5
-    date: "2025-01-15"
-    source: "Google"
-    text: "Luke was great. Very friendly and we had some good conversations that made the 3 hours go by fast. He added his own ideas to my design and made it better. Very skilled — the tattoo looks amazing."
-    artist: "luke-baxter"
-  - name: "Heather H."
+    date: 2025-01-15
+    source: Google
+    text: Luke was great. Very friendly and we had some good conversations that made
+      the 3 hours go by fast. He added his own ideas to my design and made it
+      better. Very skilled - the tattoo looks amazing.
+    artist: luke-baxter
+  - name: Heather H.
     rating: 5
-    date: "2024-04-04"
-    source: "Google"
-    text: "I had a tattoo this afternoon and it is fabulous! I have been through several artists over the years but Clint is by far the best. Professional, talented, and makes you feel welcome."
-    artist: "clint-baxter"
-  - name: "Brian D."
+    date: 2024-04-04
+    source: Google
+    text: I had a tattoo this afternoon and it is fabulous! I have been through
+      several artists over the years but Clint is by far the best. Professional,
+      talented, and makes you feel welcome.
+    artist: clint-baxter
+  - name: Brian D.
     rating: 5
-    date: "2024-01-08"
-    source: "Google"
-    text: "An exceptional place for a tattoo. The Baxter family make you feel welcome and comfortable. Highly recommend Dragon City Tattoo to anyone looking for quality work."
-    artist: "clint-baxter"
-  - name: "Kaser B."
+    date: 2024-01-08
+    source: Google
+    text: An exceptional place for a tattoo. The Baxter family make you feel welcome
+      and comfortable. Highly recommend Dragon City Tattoo to anyone looking for
+      quality work.
+    artist: clint-baxter
+  - name: Kaser B.
     rating: 5
-    date: "2024-05-18"
-    source: "Google"
-    text: "Very professional, great tattoo artists. Have been getting tattooed for over 20 years by different artists and these guys are right up there with the best."
-    artist: "clint-baxter"
+    date: 2024-05-18
+    source: Google
+    text: Very professional, great tattoo artists. Have been getting tattooed for
+      over 20 years by different artists and these guys are right up there with
+      the best.
+    artist: clint-baxter
