@@ -13,7 +13,8 @@ const artists = Array.isArray(artistsRaw) ? artistsRaw : (artistsRaw?.items || [
 const galleryItems = Array.isArray(galleryRaw) ? galleryRaw : (galleryRaw?.items || []);
 const reviews = Array.isArray(reviewsRaw) ? reviewsRaw : (reviewsRaw?.items || []);
 
-const styles = [...new Set(galleryItems.flatMap((item: any) => Array.isArray(item.style) ? item.style : [item.style]))].sort();
+const allStyles = ["Custom", "Traditional", "Realism", "Japanese", "Blackwork", "Fine Line", "Cover-Ups", "Freehand", "Lettering", "Colour", "Black & Grey"];
+const styles = allStyles;
 ---
 
 <BaseLayout>
