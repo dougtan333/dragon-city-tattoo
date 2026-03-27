@@ -1,16 +1,16 @@
 name: Dragon City Tattoo
-tagline: Family-Owned Tattoo Parlour in Box Hill South, Melbourne - Est. 1985
-description: Dragon City Tattoo is a licensed family tattoo parlour in Box Hill
-  South, Melbourne. Established in 1988 by Steve Baxter and re-established in
-  2015 by Clint Baxter, we bring over 65 years of combined tattooing experience
-  to every piece. Specialising in custom tattoos, freehand work, cover-ups,
-  traditional, realism, portraits, Japanese, and blackwork. Walk-ins welcome
-  Monday to Saturday.
+tagline: Family-Owned Tattoo Parlour in Box Hill, Melbourne - Est. 1985
+description: Dragon City Tattoo is a licensed family tattoo parlour in Box Hill,
+  Melbourne. Established in 1988 by Steve Baxter and re-established in 2015 by
+  Clint Baxter, we bring over 65 years of combined tattooing experience to every
+  piece. Specialising in custom tattoos, freehand work, cover-ups, traditional,
+  realism, portraits, Japanese, and blackwork. Walk-ins welcome Monday to
+  Saturday.
 phone: +61 3 9890 2734
 email: Baxtatt2@yahoo.com
 address:
   street: 893 Canterbury Road
-  suburb: Box Hill South
+  suburb: Box Hill
   state: VIC
   postcode: "3128"
   country: Australia
@@ -49,10 +49,10 @@ google_reviews_url: https://www.google.com/search?q=dragon+tattoo+box+hill+revie
 booking_url: tel:+61398902734
 booking_cta: Call to Book
 walkins_welcome: true
-meta_title: Dragon City Tattoo | Box Hill South, Melbourne - Custom Tattoos Since 1985
-meta_description: Licensed family tattoo parlour in Box Hill South, Melbourne.
-  35+ years experience. Custom tattoos, cover-ups, freehand & walk-ins. Call
-  (03) 9890 2734 today.
+meta_title: Dragon City Tattoo | Box Hill, Melbourne - Custom Tattoos Since 1985
+meta_description: Licensed family tattoo parlour in Box Hill, Melbourne. 35+
+  years experience. Custom tattoos, cover-ups, freehand & walk-ins. Call (03)
+  9890 2734 today.
 meta_image: /images/og-share.jpg
 locale: en_AU
 features:
@@ -64,7 +64,7 @@ features:
 facebook_page_url: https://www.facebook.com/dragoncitytattoo/
 about:
   headline: A family tradition in ink
-  intro: Dragon City Tattoo is a licensed family tattoo parlour in Box Hill South,
+  intro: Dragon City Tattoo is a licensed family tattoo parlour in Box Hill,
     established in 1985 by Steve Baxter and re-established in 2015 by Clint
     Baxter. We're one of Melbourne's longest-running tattoo studios, with over
     65 years of combined experience across the family.
@@ -81,12 +81,12 @@ about:
     Whether you're after a custom design, a freehand piece, a detailed cover-up, or your very first tattoo, we treat every client like family. We pride ourselves on a clean, professional studio and a relaxed vibe where you can feel comfortable from the moment you walk in.
 
 
-    Located on Canterbury Road in Box Hill South - just minutes from Box Hill Central, Blackburn, Mont Albert, and Surrey Hills - we're easy to reach by car or public transport. Walk-ins are always welcome, or give us a call to book your session.
+    Located on Canterbury Road in Box Hill - just minutes from Box Hill Central, Blackburn, Mont Albert, and Surrey Hills - we're easy to reach by car or public transport. Walk-ins are always welcome, or give us a call to book your session.
   values:
     - title: Family-Owned Since 1985
-      description: Three generations of tattooing expertise right here in Box Hill
-        South. We've been part of the Melbourne eastern suburbs community for
-        over 40 years.
+      description: Three generations of tattooing expertise right here in Box Hill.
+        We've been part of the Melbourne eastern suburbs community for over 40
+        years.
     - title: Walk-ins Welcome
       description: No appointment needed - drop in Monday to Saturday. Weekdays are
         quieter for walk-ins. Call ahead on (03) 9890 2734 if you'd like to
@@ -105,14 +105,14 @@ faq:
       or call (03) 9890 2734 to discuss your idea and get an accurate quote.
   - question: Do you accept walk-ins?
     answer: Absolutely - walk-ins are welcome Monday to Saturday at our Box Hill
-      South studio. Weekdays tend to be quieter, so you'll have the best chance
-      of being seen straight away. For larger custom work or guaranteed session
+      studio. Weekdays tend to be quieter, so you'll have the best chance of
+      being seen straight away. For larger custom work or guaranteed session
       times, we recommend calling ahead on (03) 9890 2734 to book.
   - question: How do I book a tattoo appointment?
     answer: You can book by calling us on (03) 9890 2734, dropping into the studio
-      at 893 Canterbury Road in Box Hill South, or sending a DM on Instagram
-      (@clintbaxtertatt2). For custom designs, we'll arrange a free
-      consultation first to discuss your vision, placement, and pricing.
+      at 893 Canterbury Road in Box Hill, or sending a DM on Instagram
+      (@clintbaxtertatt2). For custom designs, we'll arrange a free consultation
+      first to discuss your vision, placement, and pricing.
   - question: What tattoo styles do you specialise in?
     answer: Our artists cover a wide range of styles including custom designs,
       freehand work, traditional and neo-traditional, realism and portraits,
@@ -168,7 +168,7 @@ faq:
       effective for larger organic pieces that need to wrap around curves. Our
       artists are skilled in both methods.
   - question: Where is Dragon City Tattoo located?
-    answer: We're at 893 Canterbury Road, Box Hill South, VIC 3128 - in Melbourne's
+    answer: We're at 893 Canterbury Road, Box Hill, VIC 3128 - in Melbourne's
       eastern suburbs. We're close to Box Hill Central shopping centre, and
       easily accessible from Blackburn, Mont Albert, Surrey Hills, Balwyn,
       Doncaster, and the wider Melbourne eastern suburbs. There's street parking
