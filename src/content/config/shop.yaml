@@ -1,8 +1,11 @@
 name: Dragon City Tattoo
-tagline: Family-owned tattoo parlour since 1985
-description: Licensed family tattoo parlour in Box Hill South, Melbourne.
-  Established in 1985 by Steve Baxter, re-established in 2015 by Clint Baxter.
-  Over 65 years combined experience. Walk-ins welcome.
+tagline: Family-Owned Tattoo Parlour in Box Hill South, Melbourne - Est. 1985
+description: Dragon City Tattoo is a licensed family tattoo parlour in Box Hill
+  South, Melbourne. Established in 1988 by Steve Baxter and re-established in
+  2015 by Clint Baxter, we bring over 65 years of combined tattooing experience
+  to every piece. Specialising in custom tattoos, freehand work, cover-ups,
+  traditional, realism, portraits, Japanese, and blackwork. Walk-ins welcome
+  Monday to Saturday.
 phone: +61 3 9890 2734
 email: Baxtatt2@yahoo.com
 address:
@@ -15,26 +18,26 @@ address:
   google_maps_link: https://www.google.com/maps/place/Dragon+City+Tattoo/@-37.8286801,145.122489,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad640bd8d3d25cb:0x2944f6901fb2fc94!8m2!3d-37.8286801!4d145.122489
 hours:
   - day: Monday
-    open: 11:00
-    close: 20:00
+    open: 11:00 AM
+    close: 8:00 PM
   - day: Tuesday
-    open: 11:00
-    close: 20:00
+    open: 11:00 AM
+    close: 8:00 PM
   - day: Wednesday
-    open: 11:00
-    close: 20:00
+    open: 11:00 AM
+    close: 8:00 PM
   - day: Thursday
-    open: 11:00
-    close: 20:00
+    open: 11:00 AM
+    close: 8:00 PM
   - day: Friday
-    open: 11:00
-    close: 20:00
+    open: 11:00 AM
+    close: 8:00 PM
   - day: Saturday
-    open: 11:00
-    close: 16:00
+    open: 11:00 AM
+    close: 4:00 PM
   - day: Sunday
     open: Closed
-    close: Closed
+    close: "-"
 socials:
   instagram: https://www.instagram.com/clintbaxtertatt2/
   facebook: https://www.facebook.com/dragoncitytattoo/
