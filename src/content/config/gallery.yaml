@@ -17,8 +17,8 @@ items:
       - "Colour"
       - "Custom"
   - id: "gal-003"
-    image: /images/before-realistic-star-wars-portrait-coverup-tattoo-colour-upper-arm-melbourne-clint-baxter.jpg
-    title: "Star Wars portrait cover-up"
+    image: /images/realistic-star-wars-portrait-coverup-tattoo-colour-upper-arm-melbourne-clint-baxter.jpg
+    title: "Star Wars portrait cover-up (after)"
     artist: "clint-baxter"
     style:
       - "Realism"
@@ -69,3 +69,234 @@ items:
       - "Japanese"
       - "Traditional"
       - "Colour"
+  - id: "gal-010"
+    image: /images/collage-colour-oriental-chinese-landscape-crane-tattoo-melbourne-clint-baxter.jpg
+    title: "Oriental Chinese landscape with crane"
+    artist: "clint-baxter"
+    style:
+      - "Colour"
+      - "Japanese"
+      - "Custom"
+  - id: "gal-011"
+    image: /images/collage-realistic-black-grey-flower-animal-portrait-tattoo-full-leg-melbourne-clint-baxter.jpg
+    title: "Flower & animal portrait full leg"
+    artist: "clint-baxter"
+    style:
+      - "Black & Grey"
+      - "Realism"
+      - "Custom"
+  - id: "gal-012"
+    image: /images/colour-biomechanical-realism-skull-tattoo-upper-arm-melbourne-clint-baxter.jpg
+    title: "Biomechanical skull upper arm"
+    artist: "clint-baxter"
+    style:
+      - "Colour"
+      - "Realism"
+      - "Custom"
+  - id: "gal-013"
+    image: /images/colour-freehand-custom-dragon-tattoo-lower-leg-melbourne-clint-baxter.jpg
+    title: "Freehand dragon lower leg"
+    artist: "clint-baxter"
+    style:
+      - "Colour"
+      - "Freehand"
+      - "Custom"
+  - id: "gal-014"
+    image: /images/colour-geometric-mandala-tattoo-hand-melbourne-luke-baxter.jpg
+    title: "Geometric mandala hand piece"
+    artist: "luke-baxter"
+    style:
+      - "Colour"
+      - "Custom"
+  - id: "gal-015"
+    image: /images/colour-japanese-koi-coverup-tattoo-full-sleeve-half-chest-ribs-melbourne-clint-baxter.jpg
+    title: "Japanese koi cover-up full sleeve"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Colour"
+      - "Cover-Ups"
+  - id: "gal-016"
+    image: /images/colour-japanese-lotus-flower-freehand-tattoo-full-sleeve-melbourne-clint-baxter.jpg
+    title: "Japanese lotus freehand full sleeve"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Colour"
+      - "Freehand"
+  - id: "gal-017"
+    image: /images/colour-japanese-oni-demon-tattoo-full-back-melbourne-clint-baxter.jpg
+    title: "Japanese oni demon full back"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Colour"
+      - "Custom"
+  - id: "gal-018"
+    image: /images/colour-oriental-tiger-flower-tattoo-leg-sleeve-melbourne-clint-baxter.jpg
+    title: "Oriental tiger & flower leg sleeve"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Colour"
+      - "Custom"
+  - id: "gal-019"
+    image: /images/colour-realistic-australian-bat-animal-tattoo-full-back-upper-arm-melbourne-clint-baxter.jpg
+    title: "Realistic Australian bat full back"
+    artist: "clint-baxter"
+    style:
+      - "Realism"
+      - "Colour"
+      - "Custom"
+  - id: "gal-020"
+    image: /images/colour-realistic-star-wars-portrait-coverup-tattoo-melbourne-clint-baxter.jpg
+    title: "Star Wars portrait cover-up"
+    artist: "clint-baxter"
+    style:
+      - "Realism"
+      - "Colour"
+      - "Cover-Ups"
+  - id: "gal-021"
+    image: /images/colour-samurai-dragon-tattoo-chest-arm-melbourne-clint-baxter.jpg
+    title: "Samurai dragon chest & arm"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Colour"
+      - "Custom"
+  - id: "gal-022"
+    image: /images/colour-traditional-japanese-hannya-demon-tibetan-tattoo-full-back-melbourne-clint-baxter.jpg
+    title: "Hannya demon Tibetan full back"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Traditional"
+      - "Colour"
+  - id: "gal-023"
+    image: /images/colour-traditional-japanese-kirin-tattoo-full-back-melbourne-luke-baxter.jpg
+    title: "Traditional Japanese kirin full back"
+    artist: "luke-baxter"
+    style:
+      - "Japanese"
+      - "Traditional"
+      - "Colour"
+  - id: "gal-024"
+    image: /images/colour-traditional-japanese-peony-snake-tattoo-full-back-melbourne-clint-baxter.jpg
+    title: "Japanese peony & snake full back"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Traditional"
+      - "Colour"
+  - id: "gal-025"
+    image: /images/colour-traditional-oriental-koi-coverup-tattoo-forearm-melbourne-clint-baxter.jpg
+    title: "Oriental koi cover-up forearm"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Traditional"
+      - "Colour"
+      - "Cover-Ups"
+  - id: "gal-026"
+    image: /images/custom-chinese-armour-dragon-fine-line-tattoo-upper-arm-melbourne-clint-baxter.jpg
+    title: "Chinese armour dragon upper arm"
+    artist: "clint-baxter"
+    style:
+      - "Fine Line"
+      - "Custom"
+  - id: "gal-027"
+    image: /images/custom-colour-female-butterfly-rose-lily-floral-tattoo-forearm-melbourne-clint-baxter.jpg
+    title: "Butterfly rose & lily floral forearm"
+    artist: "clint-baxter"
+    style:
+      - "Colour"
+      - "Custom"
+      - "Fine Line"
+  - id: "gal-028"
+    image: /images/fine-line-medusa-portrait-snake-tattoo-full-back-melbourne-luke-baxter.jpg
+    title: "Medusa portrait full back"
+    artist: "luke-baxter"
+    style:
+      - "Fine Line"
+      - "Black & Grey"
+      - "Custom"
+  - id: "gal-029"
+    image: /images/geometric-black-grey-fine-line-tattoo-full-sleeve-inner-arm-melbourne-luke-baxter.jpg
+    title: "Geometric fine line full sleeve"
+    artist: "luke-baxter"
+    style:
+      - "Black & Grey"
+      - "Fine Line"
+      - "Custom"
+  - id: "gal-030"
+    image: /images/japanese-black-grey-hannya-mask-tattoo-full-front-melbourne-clint-baxter.jpg
+    title: "Black & grey hannya mask full front"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Black & Grey"
+  - id: "gal-031"
+    image: /images/japanese-crane-tattoo-full-sleeve-melbourne-clint-baxter.jpg
+    title: "Japanese crane full sleeve"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Colour"
+  - id: "gal-032"
+    image: /images/realistic-black-grey-cat-leapord-portrait-tattoo-melbourne-clint-baxter.jpg
+    title: "Cat & leopard portrait"
+    artist: "clint-baxter"
+    style:
+      - "Realism"
+      - "Black & Grey"
+  - id: "gal-033"
+    image: /images/realistic-black-grey-tiger-portrait-tattoo-melbourne-clint-baxter.jpg
+    title: "Tiger portrait"
+    artist: "clint-baxter"
+    style:
+      - "Realism"
+      - "Black & Grey"
+  - id: "gal-034"
+    image: /images/realistic-black-grey-zeus-portrait-tattoo-inner-arm-melbourne-clint-baxter.jpg
+    title: "Zeus portrait inner arm"
+    artist: "clint-baxter"
+    style:
+      - "Realism"
+      - "Black & Grey"
+  - id: "gal-035"
+    image: /images/traditional-colour-chest-tiger-tattoo-melbourne-luke-baxter.jpg
+    title: "Traditional tiger chest piece"
+    artist: "luke-baxter"
+    style:
+      - "Traditional"
+      - "Colour"
+  - id: "gal-036"
+    image: /images/traditional-colour-tattoo-leg-melbourne-luke-baxter.jpg
+    title: "Traditional colour leg piece"
+    artist: "luke-baxter"
+    style:
+      - "Traditional"
+      - "Colour"
+  - id: "gal-037"
+    image: /images/traditional-japanese-hannya-snake-coverup-tattoo-colour-melbourne-clint-baxter.jpg
+    title: "Hannya & snake cover-up"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Traditional"
+      - "Colour"
+      - "Cover-Ups"
+  - id: "gal-038"
+    image: /images/traditional-japanese-samurai-fighting-demon-tattoo-colour-full-back-melbourne-clint-baxter.jpg
+    title: "Samurai fighting demon full back"
+    artist: "clint-baxter"
+    style:
+      - "Japanese"
+      - "Traditional"
+      - "Colour"
+  - id: "gal-039"
+    image: /images/before-realistic-star-wars-portrait-coverup-tattoo-colour-upper-arm-melbourne-clint-baxter.jpg
+    title: "Star Wars cover-up (before)"
+    artist: "clint-baxter"
+    style:
+      - "Cover-Ups"
