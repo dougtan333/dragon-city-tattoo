@@ -17,3 +17,12 @@ node_modules/
 
 # astro
 .astro/
+
+# source photos (not for deployment)
+Photos/
+
+# generated files
+qr-code-raw.svg
+qr-data.txt
+qr-dataurl.txt
+review-card-printable.html
