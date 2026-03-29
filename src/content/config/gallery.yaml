@@ -1,61 +1,71 @@
 items:
-  - id: gal-001
+  - id: "gal-001"
     image: /images/colour-fine-line-mexican-day-of-dead-skull-rose-portrait-tattoo-full-back-melbourne-clint-baxter.jpg
-    title: Freehand full sleeve
-    artist: clint-baxter
-    style: Freehand
-  - id: gal-002
-    image: /images/gallery/realism-portrait-01.jpg
-    title: Realistic portrait
-    artist: clint-baxter
-    style: Realism
-  - id: gal-003
-    image: /images/gallery/traditional-01.jpg
-    title: Traditional piece
-    artist: luke-baxter
-    style: Traditional
-  - id: gal-004
-    image: /images/gallery/coverup-01.jpg
-    title: Cover-up transformation
-    artist: clint-baxter
-    style: Cover-Ups
-  - id: gal-005
-    image: /images/gallery/custom-design-01.jpg
-    title: Custom design
-    artist: clint-baxter
-    style: Custom
-  - id: gal-006
-    image: /images/gallery/blackwork-01.jpg
-    title: Blackwork piece
-    artist: clint-baxter
-    style: Blackwork
-  - id: gal-007
-    image: /images/gallery/freehand-02.jpg
-    title: Freehand leg piece
-    artist: clint-baxter
-    style: Freehand
-  - id: gal-008
-    image: /images/gallery/colour-01.jpg
-    title: Full colour work
-    artist: luke-baxter
-    style: Custom
-  - id: gal-009
-    image: /images/gallery/japanese-01.jpg
-    title: Japanese inspired
-    artist: clint-baxter
-    style: Japanese
-  - id: gal-010
-    image: /images/gallery/portrait-02.jpg
-    title: Portrait piece
-    artist: clint-baxter
-    style: Realism
-  - id: gal-011
-    image: /images/gallery/custom-design-02.jpg
-    title: Custom chest piece
-    artist: clint-baxter
-    style: Custom
-  - id: gal-012
-    image: /images/gallery/traditional-02.jpg
-    title: Neo-traditional work
-    artist: luke-baxter
-    style: Traditional
+    title: "Day of the Dead skull & rose back piece"
+    artist: "clint-baxter"
+    style:
+      - "Colour"
+      - "Fine Line"
+      - "Custom"
+      - "Realism"
+  - id: "gal-002"
+    image: /images/australian-fine-line-snake-tattoo-colour-full-chest-melbourne-clint-baxter.jpg
+    title: "Fine line snake chest piece"
+    artist: "clint-baxter"
+    style:
+      - "Fine Line"
+      - "Colour"
+      - "Custom"
+  - id: "gal-003"
+    image: /images/before-realistic-star-wars-portrait-coverup-tattoo-colour-upper-arm-melbourne-clint-baxter.jpg
+    title: "Star Wars portrait cover-up"
+    artist: "clint-baxter"
+    style:
+      - "Realism"
+      - "Cover-Ups"
+      - "Colour"
+  - id: "gal-004"
+    image: /images/black-grey-anime-gamer-custom-tattoo-upper-arm-melbourne-clint-baxter.jpg
+    title: "Anime gamer custom piece"
+    artist: "clint-baxter"
+    style:
+      - "Black & Grey"
+      - "Custom"
+  - id: "gal-005"
+    image: /images/black-grey-fine-line-snake-tattoo-arm-melbourne-luke-baxter.jpg
+    title: "Fine line snake arm piece"
+    artist: "luke-baxter"
+    style:
+      - "Black & Grey"
+      - "Fine Line"
+  - id: "gal-006"
+    image: /images/black-grey-realistic-portrait-tattoo-upper-arm-melbourne-clint-baxter.jpg
+    title: "Realistic portrait upper arm"
+    artist: "clint-baxter"
+    style:
+      - "Black & Grey"
+      - "Realism"
+  - id: "gal-007"
+    image: /images/black-grey-realistic-religious-portrait-tattoo-upper-chest-melbourne-clint-baxter.jpg
+    title: "Religious portrait chest piece"
+    artist: "clint-baxter"
+    style:
+      - "Black & Grey"
+      - "Realism"
+  - id: "gal-008"
+    image: /images/collage-realistic-animal-portraits-tattoo-black-grey-upper-arm-leg-melbourne-clint-baxter.jpg
+    title: "Animal portraits collage"
+    artist: "clint-baxter"
+    style:
+      - "Black & Grey"
+      - "Realism"
+      - "Custom"
+  - id: "gal-009"
+    image: /images/freehand-custom-oni-mask-tattoo-colour-japanese-traditional-melbourne-clint-baxter.jpg
+    title: "Freehand oni mask"
+    artist: "clint-baxter"
+    style:
+      - "Freehand"
+      - "Japanese"
+      - "Traditional"
+      - "Colour"
